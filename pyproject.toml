@@ -1,0 +1,32 @@
+ [build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "formula1-predictor"
+version = "1.0.0"
+authors = [
+  { name="0xgillus", email="214871204+0xgillus@users.noreply.github.com" },
+]
+description = "A CLI tool to predict the upcoming Formula 1 Grand Prix."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { text = "Unlicense" }
+dependencies = [
+    "fastf1",
+    "click",
+    "requests",
+    "rich",
+    "pandas" # fastf1 dependency, good to be explicit
+]
+
+[project.urls]
+Homepage = "https://github.com/0xgillus/formula1-predictor"
+Issues = "https://github.com/0xgillus/formula1-predictor/issues" 
+
+[project.scripts]
+formula1 = "formula1.cli:main"
