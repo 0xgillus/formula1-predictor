@@ -48,7 +48,7 @@ def print_prediction(prediction):
     for podium_position, driver in enumerate(prediction['podium_favorites'], start=1):
         panel_content.add_row(
             f"  P{podium_position}",  # Use the counter for the P-number
-            f"{driver['name']} - {driver['constructor']} (this year's standing: {driver['position']})"
+            f"{driver['name']} - {driver['constructor']} (current standing: {driver['position']})"
         )
     panel_content.add_row("", "") # Spacer
 
