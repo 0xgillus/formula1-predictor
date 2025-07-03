@@ -12,8 +12,8 @@ A fun command-line tool that provides a data-driven prediction for the upcoming 
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/<0xgillus>/<formula1-predictor>.git
-    cd <formula1-predictor>
+    git clone https://github.com/0xgillus/formula1-predictor.git
+    cd formula1-predictor
     ```
 
 2.  **Install the package:**
