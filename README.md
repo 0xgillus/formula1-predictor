@@ -1,5 +1,5 @@
  # 🏎️ F1 Grand Prix Predictor
-
+<img src="https://i.pinimg.com/736x/2c/2f/ad/2c2fada02dac215c8d675ca048422be7.jpg">
 A fun command-line tool that provides a data-driven prediction for the upcoming F1 race based on current championship standings.
 
 ## Features
