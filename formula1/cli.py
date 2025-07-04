@@ -81,8 +81,8 @@ def main(gp_name):
     to get the very next race on the calendar.
     """
     if not gp_name:
-        # If no GP name is provided, try to get the next one.
-        # But first, show help info if it's the user's first time.
+        # If no GP name is provided, try to get the next one
+        # But first, show help info if it's the user's first time
         print_welcome()
         console.print("\n[bold]Getting the next race on the calendar...[/bold]\n")
 
